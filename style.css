@@ -1,0 +1,132 @@
+/* Colors and fonts*/;
+
+body{
+background-color:grey
+color: rgb(50, 50, 50);
+font-family: 'Lora', serif;
+font-size: 16px
+font-weight: 100;
+}
+
+
+h1, h2 {
+	font-family: 'Roboto', sans serif;
+}
+
+h1{
+	color:#890620;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+h2{
+
+	color:#7C99B4;
+	font-size: 25px;
+	font-weight: lighter;
+
+}
+a{
+
+text-decoration: none;
+color: purple
+font-family: 'Roboto', sans serif;
+font-size: 16px
+}
+
+
+a:hover{
+	color:orange
+}
+
+img{
+width: 200px
+
+
+}
+img{
+	border-radius: 50%
+}
+
+
+
+#teodora {
+
+	width: 40px
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-bordered {
+  border: 10px solid red;
+}
+
+
+div {
+	background: white;
+	padding: 100px;
+	margin:50px;
+	box-shadow:0px 10px 30px rgb(0 0 0 / 10%);
+	border-radius: 4px;
+}
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+  background color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+
+	border-radius: 50%;
+}
+
+.btn-blue {
+
+	background-color: #890620;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: white;
+	color: #890620;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+ display: inline;
+ padding: 10px;
+
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+@media(max-width: 960px){
+/*For a screen < 960px, this CSS will be read */
+.container{
+	width: 500px;
+}
+
+@media(max-width: 720px){
+	/*For a screen < 720px, this CSS will be read */
+	.container{
+		width: 500px
+	}
